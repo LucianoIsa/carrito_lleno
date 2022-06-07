@@ -6,26 +6,231 @@
     box-sizing: border-box;
 }
 body{
-    background-color: crimson;
-    color: radial-gradient(circle, rgba(222,237,178,1) 0%, rgba(19,14,16,0.969625350140056) 100%);
+    background: radial-gradient(circle, rgba(222,237,178,1) 0%, rgba(230, 132, 102, 0.97) 100%);
 }
 
-.navbar{
-    background-color: cornflowerblue;
+a{
+    color: inherit;
 }
 
-.nav-search-input{
-    width: 30%;
-    height: 50%;
+.titulo1{
+    color: rgb(218, 148, 63);
+    font-size:3 rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
+
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(55, 46, 141);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    padding: 0 2rem;
+    color: white;
+}
+
+
+.nav__lista{
+    display: flex;
+    flex-direction:row;
+    list-style: none;
+
+}
+
+.nav__item{
+    margin-left: 2rem;
+
+}
+
+.nav__enlace{
+    text-decoration:none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+.main{
+    padding-top: 320px;
+}
+
+
+
 
 #titulo-principal{
     font-size: 50px;
     text-align: center;
-    background:  radial-gradient(circle, rgba(222,237,178,1) 0%, rgba(186,41,80,0.9556197478991597) 100%);;
-    
+    background: radial-gradient(circle, rgba(222,237,178,1) 0%, rgba(186,41,80,0.9556197478991597) 100%);
+}
+
+.inicio1{
+    position: relative;
+}
+.inicio2__absolute {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    top: 0.5rem;
+    right: 10rem;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.ofertas-calientes{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-color: wheat;
+}
+
+.slider{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: inline;
+
 }
 
 p{
+    margin-top: 50px;
     color:black;
+    font-size: medium;
+    text-align: justify;
+}
+
+.titulo-envios-gratis{
+
+    background-image: url(../img/ENTREGA.jpg);
+    background-repeat: no-repeat;
+    padding: 100px 100px;
+    background-size: 100% 50%;
+    height: 800px;
+    *font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 1.7rem;
+
+    
+} 
+
+.section3{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content:unsafe;
+}
+.medios-de-pago{
+    background-image: url(../img/pago_tarjeta.jpg);
+    background-repeat: no-repeat;
+    padding: 310px 50px;
+    background-size: 100% 50%;
+    height: 800px;
+    width: 850px;
+    text-transform: uppercase;
+    font-family:monospace;
+    font-weight: bolder;
+    font-size: large;
+    color:rgb(73, 94, 114);
+    
+}
+.slogan{
+    text-align: center;
+    text-transform: uppercase;
+    font-size:larger;
+    margin-inline-end: 0px;
+    color: white;
+    
+}  
+.slogan2{
+    font-size: medium;
+    text-align: center;
+    margin-inline-end: 0px;
+}
+.parrafo-envios{
+
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif,sans-serif;
+
+}
+
+.titulo-categoria{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 50px;
+    text-align: center;
+    text-decoration:dotted;
+    color: rgb(12, 12, 12);
+    padding: 50px;
+
+}
+
+#compras_categorias{
+    background-color:white;
+    width:100%;
+    text-decoration-color: black;
+}
+    
+
+
+.categorias{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+
+.legales{
+    background: white;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: 800;
+    line-height: 1.8;
+    text-decoration:white;
+    text-decoration-color: white;
+    padding: 2rem;
+}
+.position-fixed{
+    background-color: green;
+    color: white;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+.footer{
+    background-color: rgb(55, 46, 141);
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 0.5rem;
+}
+.redes{
+    margin-top:1.5rem ;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+.copyrigth{
+    text-align: center;
+    color:rgb(54, 51, 51);
+    font-size: 30px;
+    padding: 1rem;
+}
+.boton_desarrollador{
+    background-color: rgb(14, 20, 22);
+    border-radius: 50px;
+    padding: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12;
+    letter-spacing: 2;
+    margin-left: 50%;
 }

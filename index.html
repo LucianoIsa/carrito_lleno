@@ -4,119 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Carrito LLeno</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <header>
-        <img src="/img/carrito_porcentaje_logo2.jpg" alt="Logo de carrito lleno" height="100" width="150">
-        <nav class="navbar">
-            <span class="nav-menu-cp-send">Enviar a</span>
-            <span class="nav-menu-link-cp"> Buenos Aires 8000</span>
-            <input type="text" class="nav-search-input" aria-label="Ingresá para llenar tu carrito" name="as_word" placeholder="Buscar productos, marcas de tu Carrito LLeno" maxlength="120" autofocus="" autocapitalize="off" autocorrect="off" spellcheck="false" autocomplete="off" tabindex="2" value="" aria-activedescendant="" aria-controls="cb1-list" aria-autocomplete="list" id="cb1-edit" aria-expanded="false" role="combobox">
-            <ul>
-                <li>
-                    <a href="ayuda.html">Ayuda</a>
+    <header class="header">
+        <img src="/img/logo-sin-fondo.png" alt="Logo de carrito lleno" class="logo" width="200" height="150">
+        <h1 class="titulo1">CARRITO LLENO</h1>
+        
+        <nav class="nav">
+            <ul class="nav__lista">
+                <li class="nav__item">
+                    <a class="nav__enlace" href="index.html">Inicio</a>
                 </li>
-                <li>
-                    <a href="ofertasCalientes.html">Ofertas Calientes para Llenar el carrito</a>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="ofertasCalientes.html">Ofertas Calientes</a>
                 </li>
-                <li>
-                    <a href="miCuenta.html">Mi Cuenta</a>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="ayuda.html">Ayuda</a>
                 </li>
-                <li>
-                    <a href="miCarritoLleno.html">Mi Carrito Lleno</a>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="miCuenta.html">Mi Cuenta</a>
                 </li>
+                <li class="nav__item">
+                    <a class="nav__enlace" href="miCarritoLleno.html">Mi Carrito Lleno</a>
+                </li>
+                
             </ul>
         </nav>
     </header>
-    <main>  
-        <section >
-            <h1 id="titulo-principal">PAGA EN HASTA 6 CUOTAS SIN INTERES</h1>
-        </section>
+    <main class="main">  
         <section>
-            <div class="container">
-                <ul class="slider">
-                    <li id="slide1">
-                        <img src="/img/sale.webp">
-                    </li>
-                    <li id="slide2">
-                        <img src="/img/discount-code.webp"/>
-                    </li>
-                    <li id="slide3">
-                        <img src="/img/tickets_desc.jpg">
-                    <h1>Ofertas Semanales</h1>
-                    </li>
-                </ul>
-                
-                <ul class="menu">
-                    <li>
-                        <a href="#slide1">1</a>
-                    </li>
-                    <li>
-                        <a href="#slide2">2</a>
-                    </li>
-                    <li>
-                        <a href="#slide3">3</a>
-                    </li>
-                </ul>
-                
+            <div class="inicio1">
+                <h1 id="titulo-principal">PAGA EN HASTA 6 CUOTAS SIN INTERES</h1>
+                <span class="inicio2__absolute">Hot Sale 🧨</span>
             </div>
+        </section>
+        <section class="slider">
+            <h1 class="ofertas-calientes">&#128293 Ofertas Calientes &#128293</h1>
+
+                        <img src="/img/sale.webp" width="250" height="250">
+
+                        <img src="/img/discount-code.webp" width="250" height="250">
+
+                        <img src="/img/tickets_desc.jpg" width="250" height="250">
+
+                        <img src="/img/led-tv-43-fhd-smart.jpg" width="250" height="250">
+
+                        <img src="/img/led2.jpg" width="250" height="250">
+
+                        <img src="/img/celular-samsung-galaxy-a02s27119.jpg" width="250" height="250">
+                        <img src="/img/heladera-gafa-hgf357.jpg" width="250" height="250">
 
         </section>
-        <section>      
-            <h3>Envios Gratis en Miles de Productos</h3>
-            <p>Una nueva manera de comprar y ahorrar en Argentina y Latam,<strong> democratizando el ahorro y la compra!!!</strong> </p>
-            <p>Nuestro e-commerce nace ante la necesidad imperiosa de <strong>incentivar las compras y concretar el ahorro</strong>, en tiempos económicos complicados globalmente, post pandemia.</p>
-            <em>¿Cómo funciona?<strong>Con tu compra obtenes un porcentaje de descuento,y luego podes aplicarlo en la proxima compra,</strong> de esta manera en el monto total de tu compra veras reflejado el descuento obtenido y <strong>podrás llenar el carrito de una manera más económica</strong> . A estos descuentos se le pueden aplicar promociones vigentes de Bancos y Distintos medios de pago. Con esta compra obtenes un nuevo porcentaje de descuento a ser utilizado en tu proxima compra.La validez de los descuentos obtenidos es por un plazo de 8 meses.</em>
+        <section class="section3"> 
+            <div class="titulo-envios-gratis">   
+                <h3 >Envios Gratis en Miles de Productos</h3>
+                <h3> a lo ancho y largo del País, inclusive donde nadie llega!!</h3>
+            </div>  
+            <div class="medios-de-pago">
+                <h2>Comprá con tu Tarjeta de Crédito preferida</h2>
+                <h3>Trabajamos con todos los Bancos</h3>
+            </div>
         </section>
         <section>
-            <h2>Ofertas</h2>
-            <div>
-            <h2>Categorías</h2>
+            <div class="parrafo-envios">
+                <p class="slogan">Una nueva manera de comprar y ahorrar en Argentina y Latam,<strong> democratizando el ahorro y la compra!!!</strong> </p>
+                <p class="slogan2">Nuestro e-commerce nace ante la necesidad imperiosa de <strong>incentivar las compras y concretar el ahorro</strong>, en tiempos económicos complicados globalmente, post pandemia.</p>
+                <br>
+                <em>¿Cómo funciona?<strong>Con tu compra obtenes un porcentaje de descuento,y luego podes aplicarlo en la proxima compra,</strong> de esta manera en el monto total de tu compra veras reflejado el descuento obtenido y <strong>podrás llenar el carrito de una manera más económica</strong> . A estos descuentos se le pueden aplicar promociones vigentes de Bancos y Distintos medios de pago. Con esta compra obtenes un nuevo porcentaje de descuento a ser utilizado en tu proxima compra.La validez de los descuentos obtenidos es por un plazo de 8 meses.</em>
+            </div>
+        </section>
+        <section id="compras_categorias">
+            <h2 class="titulo-categoria">Compra por Categoria</h2>
+            <div class="categorias">
             <ul>
-                <li>
-                    Autos y Motos
-                    <img src="img/autos&motos.jpg" width="100" height="100" alt="foto autos y motos">
-                </li>
-                <li>
-                    Computación
-                    <img src="img/computacion.jpg" width="100" height="100" alt="foto computacion">
-                </li>
-                <li>
-                    Deportes
-                    <img src="img/fitness.jpg" width="100" height="100" alt="foto deportes">
-                </li>
-                <li>
-                    Ropa
-                    <img src="img/ropa.jpg" width="100" height="100" alt="foto ropa">
-                </li>
-                <li>
-                    Muebles
-                    <img src="img/muebles.jpg" width="100" height="100" alt="foto muebles">
-                </li>
-                <li>
-                    Alimentos
-                    <img src="img/supermercado.jpg" width="100" height="100" alt="foto alimentos">
-                </li>
-                <li>
-                    Tecnología
-                    <img src="img/tecnologia.jpg" width="100" height="100" alt="foto tecnologia">
-                </li>
+                    <img src="img/autos&motos.jpg"  alt="foto autos y motos" width="250" height="250">
+
+                    <img src="img/fitness.jpg"  alt="foto deportes" 
+                    width="250" height="250">
+
+                    <img src="img/moda.webp"  alt="foto ropa" width="250" height="250">
+
+                    <img src="img/muebles.jpg"  alt="foto muebles" width="250" height="250">
+
+                    <img src="img/supermercado.jpg"  alt="foto alimentos"width="250" height="250">
+
+                    <img src="img/tecnologia.webp"  alt="foto tecnologia" width="400" height="200">
+
+                    <img src="img/herramientas.webp"  alt="foto tecnologia" width="250" height="250">
+
             </ul>
         </div>
         </section>
-        
+        <section class="legales">
+            <p>Imágenes de referencia.Válido en Argentina del 01/02 al 17/12/2022 para compras de productos seleccionados publicados en www.carritolleno.com/ofertas/hot Ofertas a cargo de cada usuario vendedor, sujetas a disponibilidad de los productos ofertados y a las condiciones establecidas por el vendedor en el anuncio publicado en el Sitio Web. (2) Costo Financiero Total (CFT) 0,00%. Tasa Nominal Anual (TNA) 0,00%. Cuotas para que aplique la promoción: 1, 3 , 6 cuotas según indique cada producto. Exclusivo para pagos online de productos nacionales seleccionados a través de la plataforma de Carritolleno S.R.L , con tarjetas de crédito Mastetarjet, Vise, Cobal y Americano Expreso bancarias únicamente emitidas y administradas por bancos autorizados en la Argentina. Aplicable para tarjetas de crédito que se encuentren vigentes y en estado de cumplimiento. Mas informacion en https://www.argentina.gob.ar/ahora-6.  Envíos gratis a partir de $5.000.</p>
+            <h2>Botón de Arrepentimiento</h2>
+            <ul>
+                <li>Cancelar una Compra</li>
+                <li>Dar de Baja una Cuenta</li>
+            </ul>
+        </section>
+        <a="#" class="position-fixed">WhastApp</a=>
     </main>
-    <footer>
-        <h2>Botón de Arrepentimiento</h2>
-        <ul>
-            <li>Cancelar una Compra</li>
-            <li>Dar de Baja una Cuenta</li>
-        </ul>
-        <h5><strong>Seguinos en las Redes y obtené codigos de Descuentos</strong></h5>
-        <h5>© Copyright 2022 Luciano Isa, Carrito Lleno Argentina</h5>
+    
+    <footer class="footer">
+
+        <h5 class="redes"><strong>Seguinos en las Redes y obtené codigos de Descuentos</strong></h5>
+        <a href="www.facebook.com">Facebook</a>
+        <a href="www.instagram.com">Instagram</a>
+
+        <h5 class="copyrigth"> © Copyright 2022 Luciano Isa, &#128722 Carrito Lleno Argentina &#128722 <br> lucianoisabb@hotmail.com.ar</h5>
+        <a class="boton_desarrollador" href="https://www.linkedin.com/in/luciano-isa/">LinkedIn Desarrollador</a>
     </footer>
 </body>
 
