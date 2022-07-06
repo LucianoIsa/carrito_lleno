@@ -5,34 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayuda</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header class="header">
-        <img src="/img/logo-sin-fondo.png" alt="Logo de carrito lleno" class="logo" width="200" height="150">
-        <h1 class="titulo1">CARRITO LLENO</h1>
         
-        <nav class="nav">
-            <ul class="nav__lista">
-                <li class="nav__item">
-                    <a class="nav__enlace" href="index.html">Inicio</a>
-                </li>
-                <li class="nav__item">
-                    <a class="nav__enlace" href="ofertasCalientes.html">Ofertas Calientes</a>
-                </li>
-                <li class="nav__item">
-                    <a class="nav__enlace" href="ayuda.html">Ayuda</a>
-                </li>
-                <li class="nav__item">
-                    <a class="nav__enlace" href="miCuenta.html">Mi Cuenta</a>
-                </li>
-                <li class="nav__item">
-                    <a class="nav__enlace" href="miCarritoLleno.html">Mi Carrito Lleno</a>
-                </li>
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+            <div class="container-fluid">
                 
-            </ul>
-        </nav>
+                <img src="/img/logo-sin-fondo.png" alt="Logo de carrito lleno" class="logo d-inline-block align-text-top" width="200" height="100">
+                <h1 class="titulo1">CARRITO LLENO</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ayuda.html">AYUDA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CARRITO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MI CUENTA</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar productos, marcas y más" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Encontrame</button>
+                    </form>
+                </div>
+                </div>
+            </nav>
+
+
     </header>
+    <section>
+        <div class="parrafo-envios">
+            <p class="slogan">Una nueva manera de comprar y ahorrar en Argentina y Latam,<strong> democratizando el ahorro y la compra!!!</strong> </p>
+            <p class="slogan2">Nuestro e-commerce nace ante la necesidad imperiosa de <strong>incentivar las compras y concretar el ahorro</strong>, en tiempos económicos complicados globalmente, post pandemia.</p>
+            <br>
+            <em>¿Cómo funciona?<strong>Con tu compra obtenes un porcentaje de descuento,y luego podes aplicarlo en la proxima compra,</strong> de esta manera en el monto total de tu compra veras reflejado el descuento obtenido y <strong>podrás llenar el carrito de una manera más económica</strong> . A estos descuentos se le pueden aplicar promociones vigentes de Bancos y Distintos medios de pago. Con esta compra obtenes un nuevo porcentaje de descuento a ser utilizado en tu proxima compra.La validez de los descuentos obtenidos es por un plazo de 8 meses.</em>
+        </div>
+    </section>
     <footer class="footer">
 
         <h5 class="redes"><strong>Seguinos en las Redes y obtené codigos de Descuentos</strong></h5>
