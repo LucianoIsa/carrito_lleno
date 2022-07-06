@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background: radial-gradient(circle, rgba(222,237,178,1) 0%, rgba(230, 132, 102, 0.97) 100%);
+    background: radial-gradient(circle, rgba(222,237,178,1) 0%, white 100%);
 }
 
 a{
@@ -20,42 +20,35 @@ a{
 
 }
 
-.header{
-    position: fixed;
-    width: 100%;
-    background-color: rgb(55, 46, 141);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 100px;
-    padding: 0 2rem;
-    color: white;
+
+main{
+    padding-top: 10px;
 }
 
-
-.nav__lista{
-    display: flex;
-    flex-direction:row;
-    list-style: none;
-
+#fotos__principales img{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 100% 0 !important ;
+    height: 450px;
 }
-
-.nav__item{
-    margin-left: 2rem;
-
+.fotos__principales{
+    padding-top: 100px;
+    padding-bottom: 100px ;
 }
-
-.nav__enlace{
-    text-decoration:none;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5rem;
+.texto_foto_ropa{
+    padding-top: 12px;
+    text-align: center;
+    color:blue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 6rem;
 }
-
-.main{
-    padding-top: 320px;
+.titulo__form{
+    text-align: center;
+    margin-top: 50px;
+    color:blue;
 }
-
 
 
 
