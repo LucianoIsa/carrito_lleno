@@ -234,3 +234,12 @@ p{
     letter-spacing: 2;
     margin-left: 50%;
 }
+
+.carousel-item img{
+    height: 600px;
+    object-fit: cover;
+    object-position: 0 80%;
+}
+.container-fluid{
+    overflow: hidden;
+}
