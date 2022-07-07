@@ -1,0 +1,23 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    min-height: 100vh;
+}
+.slogan{
+    color: blue;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.ayuda{
+    color:rgb(218, 148, 63);
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 35%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+
+}

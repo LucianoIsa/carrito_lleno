@@ -29,7 +29,6 @@ main{
     margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(255, 255, 255);
     width: 100% 0 !important ;
     height: 450px;
 }
@@ -50,6 +49,13 @@ main{
     color:blue;
 }
 
+.limitado{
+    height: 120px;
+    width: 100%;
+    border: 2px solid  rgb(0, 0, 0) !important;
+    margin-top:20px;
+    margin-bottom: 25px;
+}
 
 
 #titulo-principal{
@@ -72,21 +78,27 @@ main{
     text-transform: uppercase;
 }
 
-.ofertas-calientes{
-    font-size: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    border-color: wheat;
+.seccion__card1 .seccion__card2 .seccion__card3 .seccion__card4 .seccion__card5 .seccion__card6{
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
-.slider{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    display: inline;
-
+.card{
+    background-color: rgb(29, 58, 58);
+    color: white;
+    position: relative;
+    margin: 10px;
 }
-
-p{
+.card__icon{
+    background-color: rgb(255, 255, 255) transparent;
+    color:red;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+.p{
     margin-top: 50px;
     color:black;
     font-size: medium;
@@ -112,20 +124,7 @@ p{
     flex-direction: row;
     justify-content:unsafe;
 }
-.medios-de-pago{
-    background-image: url(../img/pago_tarjeta.jpg);
-    background-repeat: no-repeat;
-    padding: 310px 50px;
-    background-size: 100% 50%;
-    height: 800px;
-    width: 850px;
-    text-transform: uppercase;
-    font-family:monospace;
-    font-weight: bolder;
-    font-size: large;
-    color:rgb(73, 94, 114);
-    
-}
+
 .slogan{
     text-align: center;
     text-transform: uppercase;
@@ -198,11 +197,12 @@ p{
     bottom: 2rem;
 }
 .footer{
-    background-color: rgb(55, 46, 141);
+    background-color: rgba(33,37,41);
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    padding: 0.5rem;
+    padding: 0.3rem;
+    height: 180px;
 }
 .redes{
     margin-top:1.5rem ;
@@ -211,21 +211,9 @@ p{
 }
 .copyrigth{
     text-align: center;
-    color:rgb(54, 51, 51);
+    color:rgb(224, 214, 214);
     font-size: 30px;
     padding: 1rem;
-}
-.boton_desarrollador{
-    background-color: rgb(14, 20, 22);
-    border-radius: 50px;
-    padding: 1rem;
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 12;
-    letter-spacing: 2;
-    margin-left: 50%;
 }
 
 .carousel-item img{
