@@ -17,7 +17,7 @@
         <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
             <div class="container-fluid">
                 
-                <img src="/img/logo-sin-fondo.png" alt="Logo de carrito lleno" class="logo d-inline-block align-text-top" width="200" height="100">
+                <img src="img/logo-sin-fondo.png" alt="Logo de carrito lleno" class="logo d-inline-block align-text-top" width="200" height="100">
                 <h1 class="titulo1">CARRITO LLENO</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -57,17 +57,47 @@
             </div>
         </section>
 
-        <section>
+        <sect>
             <spam class="ayuda">¿Con qué podemos Ayudarte?</spam>
-            <nav class="navbar bg-light">
-                <div class="container-fluid">
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Busca en Ayuda" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form>
+            <form class="d-flex" role="search">
+                <div class="w-50 p-3 m-5 contenedor_ayuda" >
+                    <input class="form-control me-2 busqueda__ayuda" type="search" placeholder="Buscar en Ayuda" aria-label="Search">
+                    <button class="btn btn-outline-success boton__ayuda" type="submit">Buscar</button>
                 </div>
-            </nav>
+            </form>
+            
+            <span class="ayuda">¿Necesitás más ayuda?</span>
+
+            <button type="button"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-contacto">
+                AQUI PARA MAS AYUDA Y CONTACTO DIRECTO
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="modal-contacto"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">CARRITO LLENO</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        EMAIL: lucianoisabb@hotmail.com
+                        CELULAR: +54 9 291 4759116
+                        LINKEDIN: https://www.linkedin.com/in/luciano-isa/
+                        SI TE GUSTÓ CARRITO LLENO, CONTACTAME Y COMPARTILO, ASÍ ME<br>ESTARÁS AYUDANDO A CONSEGUIR TRABAJO. GRACIAS!!
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">ENTENDIDO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
+
+
+
+
+
     </main>
     <footer class="footer">
         <h5 class="copyrigth"> © Copyright 2022 Luciano Isa, &#128722 Carrito Lleno Argentina &#128722 <br> lucianoisabb@hotmail.com.ar</h5>

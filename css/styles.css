@@ -189,13 +189,26 @@ main{
     text-decoration-color: white;
     padding: 2rem;
 }
-.position-fixed{
+.position-fixed {
     background-color: green;
     color: white;
+    font-size: 32px;
     position: fixed;
+    /* top, left, right, bottom */
     right: 2rem;
     bottom: 2rem;
+    z-index: 10;
+    padding: 0.5rem 1rem;
+    border-radius: 100%;
+    text-decoration: none;
 }
+
+.btn-wsp:hover{
+    text-decoration: none;
+    color:#0df053;
+    background-color: #fff;
+}
+
 .footer{
     background-color: rgba(33,37,41);
     font-style: italic;
