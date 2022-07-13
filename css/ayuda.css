@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-ma in {
+main {
     min-height: 100vh;
 }
 .slogan {
@@ -40,3 +40,37 @@ ma in {
     background-color: yellow;
     color: blue;
 }
+
+@media (max-width: 600px) {
+    .slogan{
+        font-size: 1.8rem;
+    }
+    .como_funciona{
+        font-size: 1rem;
+        color: navy;
+    }
+    .ayuda{
+        font-size: 1.3rem;
+        margin-left: 20px;
+        text-align: center;
+    }
+    .d-flex{
+        margin-left: -250px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .busqueda__ayuda{
+        margin-left: 120px;
+        height: 40px;
+        width:180px; 
+        font-size: 1rem;
+    }
+    .boton__ayuda{
+        height: 40px;
+        font-size: 1rem;
+    }
+    .btn-primary{
+        width: 100%;
+        height: 40px ;
+        font-size: 0.8rem;
+    }
