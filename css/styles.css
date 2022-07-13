@@ -17,7 +17,7 @@ a{
     color: rgb(218, 148, 63);
     font-size:3 rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    margin-left: -55px;
 }
 
 
@@ -87,7 +87,17 @@ main{
     background-color: rgb(29, 58, 58);
     color: white;
     position: relative;
-    margin: 10px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.card-img-top{
+    width:100%;
+    height: 250px;
+    object-fit:fill;
+}
+.seccion__card1 .seccion__card2 .seccion__card3 .seccion__card4 .seccion__card5 .seccion__card6 .seccion__card7 {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 .card__icon{
     background-color: rgb(255, 255, 255) transparent;
@@ -97,6 +107,13 @@ main{
     position: absolute;
     right: 1rem;
     top: 1rem;
+}
+.seccion__card7{
+    margin-bottom: 10px;
+}
+.col-md-4{
+    margin-top:5px;
+    margin-bottom: 5px;
 }
 .p{
     margin-top: 50px;
@@ -195,12 +212,62 @@ main{
     font-size: 32px;
     position: fixed;
     /* top, left, right, bottom */
-    right: 2rem;
+    right: 1rem;
     bottom: 2rem;
     z-index: 10;
     padding: 0.5rem 1rem;
     border-radius: 100%;
     text-decoration: none;
+}
+
+
+#btn-mas{
+    display: none;
+}
+.botones_flotantes{
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+}
+
+.redes a, .icon-mas2{
+    display: block;
+    text-decoration: none;
+    background-color: #cc2b2b;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow:0px 1px 10px rgba(0, 0,0, 0.4);
+    transition: all 500ms ease;
+}
+.redes a:hover{
+    background-color: #fff;
+    color: #cc2b2b;
+
+}
+
+.redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+
+}
+#btn-mas:checked ~ .redes a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+.icon-mas2{
+    cursor:pointer;
+    background-color: #da7b7b;
+    font-size: 23px;
+}
+#btn-mas:checked ~ .btn-mas .icon-mas2{
+    transform: rotate(137deg);
+    font-size: 25px;
 }
 
 .btn-wsp:hover{
@@ -215,7 +282,7 @@ main{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     padding: 0.3rem;
-    height: 180px;
+    height: 100px;
 }
 .redes{
     margin-top:1.5rem ;
@@ -237,3 +304,7 @@ main{
 .container-fluid{
     overflow: hidden;
 }
+
+
+
+/* MEDIA QUERY*/
